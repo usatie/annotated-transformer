@@ -8,6 +8,8 @@ http://nlp.seas.harvard.edu/annotated-transformer/
 
 
 
+# Requirements
+The Annotated Transformer is built using Python 3.9.21.
 
 # Package Dependencies
 
