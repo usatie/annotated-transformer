@@ -31,10 +31,5 @@ black: the_annotated_transformer.ipynb
 clean: 
 	rm -f the_annotated_transformer.ipynb
 
-# see README.md - IWSLT needs to be downloaded manually to obtain 2016-01.tgz
-move-dataset:
-	mkdir -p ~/.torchtext/cache/IWSLT2016
-	cp 2016-01.tgz ~/.torchtext/cache/IWSLT2016/.
-
-setup: move-dataset
+setup:
 	pip install -r requirements.txt
